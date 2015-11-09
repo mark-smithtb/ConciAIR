@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AppStation : Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider css -->
+    <link href="css/skdslider.css" rel="stylesheet">
+    <!-- Font awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- BEGAIN PRELOADER -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+  <!-- END PRELOADER -->
+
+  <!-- START HEADER SECTION -->
+  <header id="headerArea">
+    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="slider_area">
+          <div class="menuarea">
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- For Text Logo -->
+                 <!-- <a class="navbar-brand logo" href="#"><span>App</span>Station</a> -->
+                 <!-- For Img Logo -->
+                   <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right custom_nav mobnav" id="top-menu">
+                    <li class="active"><a href="#headerArea">HOME</a></li>
+                    <li><a href="#About">About</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </div>
+          </div>
+          <ul id="demo1" class="slides">
+            <li>
+              <img src="img/slider/dark_wall.png" />
+              <div class="slide-desc">
+                <div class="slide_descleft">
+                 <img src="img/mobileapp_img.png" alt="img">
+                </div>
+                <div class="slide_descright">
+                 <img src="img/conciairinverted.png" alt="logo" id="concair_inverted" >
+                  <p>Your Home-Automation Away From Home</p>
+                  <div class="header_btnarea">
+                    <a href="http://fast-ocean-5338.herokuapp.com/guests/1" class="learnmore_btn">User Experience Demo</a>
+                    <a href="http://fast-ocean-5338.herokuapp.com/room_assignments" class="download_btn">Manager Demo</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- END HEADER SECTION -->
+
+   <!-- START FEATURES PRODUCT AREA -->
+    <div class="features_productarea" id='About'>
+      <div class="direction_icon">
+        <a id="firstTop" class="dirc_up" href="#">
+          <i class="fa fa-chevron-up"></i>
+        </a>
+        <a id="firstBottom" class="dirc_down" href="#">
+          <i class="fa fa-chevron-down"></i>
+        </a>
+      </div>
+      <div class="container">
+        <!-- START FIRST FEATURES PRODUCT -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="featprodcs_img wow fadeInLeft">
+              <img class="screen_shot" src="img/mobile_img1.png" alt="img" >
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="featprodcs_content wow fadeInRight">
+              <h1>About</h1>
+              <p>Have you ever walked into your hotel room, wanting to relax, only to find that it’s either stifling hot due to the air not being turned on or freezing cold from being turned way too low before you got there? That is where ConciAIR comes in. It allows you to set the thermostat in your room to your preferred temperature. So whether you are just arriving or returning to your room after being out, you will always be comfortable.</p>
+              <div class="media features_widget">
+                <a class="pull-left" href="#">
+                    <img src="img/nest-icon.png" height="75" >
+                </a>
+                <div class="media-body media_content">
+                  <h4>Nest</h4>
+                  <p>At this stage, Conciar connects to a Nest thermostat through the Nest api as a proof of concept to adjust the hotel room's temperature.</p>
+                </div>
+              </div>
+              <div class="media features_widget">
+                <a class="pull-left" href="#">
+                  <span class="fa fa-wrench clock_icon"></span>
+                </a>
+                <div class="media-body media_content">
+                  <h4>The future</h4>
+                  <p>This is just the beginning for ConciAIR. The next step would be to push it beyond Nest to use a home-automation protocol. Which would allow for expansion beyond the thermostat to any compatible devices such as lighting and entertainment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!-- START FOOTER SECTION -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="footer_area">
+            <p>Designed By <a href="http://wpfreeware.com/" rel="nofollow">WpFreeware</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER SECTION -->
+
+  <!-- JQuery Files -->
+
+  <!-- Initialize jQuery Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Google map -->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/jquery.ui.map.js"></script>
+  <!-- Skds slider -->
+  <script src="js/skdslider.min.js"></script>
+  <!-- Bootstrap js  -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- For smooth animatin  -->
+  <script src="js/wow.min.js"></script>
+
+  <!-- Custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+
+  </body>
+</html>
